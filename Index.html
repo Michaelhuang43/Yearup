@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yearup Login Page</title>
+    <link href="style.css" rel="stylesheet" />
+    <div class="logo"><a href ="#"><img src="logo.png"></a>
+    </div>
+</head>
+<body>
+    
+
+<nav>
+    <ul>
+        <li><a href="#"> YearUp</a></li>
+        <li><a href ="https://www.yearup.org/students"> Students</a></li>
+        <li><a href ="https://www.yearup.org/partners/all"> Partners</a></li>
+        <li><a href ="https://www.yearup.org/volunteers"> Supporters</a></li>
+        <li><a href ="https://www.yearup.org/locations/22311/campus/grouped"> Locations</a></li>
+        <li><a href ="https://www.yearup.org/about"> About</a></li>
+    </ul>
+</nav>
+</body>
+ 
+<img src="class 35.jpg" alt="yearup" class="center">
+
+<div class="form-box">
+<div class="button-box">
+<div id="btn"></div>
+<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+<button type="button" class="toggle-btn" onclick="register()">Register</button>
+</div>
+
+<div class="social-icons">
+    <a href="https://www.facebook.com/yearup/"><img src="Fb.png"></a>
+    <a href="https://www.linkedin.com/school/year-up/"><img src="in.png"></a>
+    <a href="https://twitter.com/YearUp"><img src="tw.png"></a>
+</div>
+
+<form id="login" class="input-group">
+    <input type="text" class="input-field" placeholder="User Id" required>
+    <input type="text" class="input-field" placeholder="Enter Password" required>
+    <input type="checkbox" class="chech-box"><span>Remember Password</span>
+    <button type="submit" class="submit-btn">Log In</button>
+    </form>
+
+<form id="register" class="input-group">
+    <input type="text" class="input-field" placeholder="User Id" required>
+    <input type="email" class="input-field" placeholder="Email Id" required>
+    <input type="text" class="input-field" placeholder="Enter Password" required>
+    <input type="checkbox" class="chech-box"><span>I agree to the terms & Conditions</span>
+    <button type="submit" class="submit-btn">Register</button>
+    </form>
+
+    </div>
+</div>
+
+    <script>
+    var x = document.getElementbyId("login");
+    var y = document.getElementbyId("register");
+    var z = document.getElementbyId("btn");
+
+    function register(){
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+    }
+
+    function login(){
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0";
+    }
+
+    </script>
+
+<h2>Learn</h2>
+<section>
+    The Learning & Development phase of our program provides you with skills based training from expert instructors. We have over 10 different career paths to choose from. See what's offered in your location.  
+</section>
+
+<h2>Intern</h2>
+<section>
+    Put the skills you learned into practice! We’ll match you to a hands-on internship at a top company. You'll earn an educational stipend during your internship.
+</section>
+
+<h2>Land a Job</h2>
+<section>
+    80% of alumni are employed and/or enrolled in college within 4 months of graduation. Our support staff will guide you through every part of your job search.  
+</section>
+
+<hr>
+<footer>
+Michael Huang 2023
+</footer>
+
+
+    
+</body> 
+</html>
